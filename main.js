@@ -18,7 +18,6 @@ header.appendChild(text);
 
 
 
-const main = document.getElementById('main');
 const img =document.createElement('img');
 img.classList.add('left');  
 img.src = 'images/main (1).jpg' 
