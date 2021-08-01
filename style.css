@@ -1,0 +1,87 @@
+body{
+	background: #F0F0F0;
+}
+.headerDiv {
+	background: url("/images/logo.png");
+	background-repeat:no-repeat;
+  background-color: #d8d8d8;
+  padding-bottom: 0;
+	/* display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center; */
+	height: 450px;;
+
+}
+.heading{
+	font-family:'Handlee', cursive;
+  font-weight: bold;
+	text-align: center;
+}
+
+
+.subheading{
+  text-align: center;
+  padding-bottom: 70px;
+  text-align: center;
+	font-family: 'Bad Script', cursive;
+	font-family: 'Caveat', cursive;
+	font-family: 'Gowun Dodum', sans-serif;
+	font-family: 'Merienda', cursive;
+}
+
+
+
+.left{
+	float: left;
+	width:33.33%;
+	padding:0 35px ;
+	box-sizing: border-box;
+}
+.left:hover{
+	transform: scale(0.8);
+}
+
+
+.middle{
+	float:center;
+	width:33.33%;
+	padding: 0 30px ;
+	box-sizing: border-box;
+}
+.middle:hover{
+	transform: scale(0.8);
+}
+
+.right{
+	float: right;
+	width:33.33%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+	.right:hover{
+	transform: scale(0.8);
+}
+
+
+
+
+
+.footer{
+
+  margin-top: 100px;
+	font-family: 'Gowun Dodum', sans-serif;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+  padding: 20px;
+
+}
+
+.link {
+  
+  padding: 100px;
+  font-size: medium;
+  transition:uppercase;
+  color: red;
+}
