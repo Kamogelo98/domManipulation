@@ -2,15 +2,11 @@ body{
 	background: #F0F0F0;
 }
 .headerDiv {
-	background: url("/images/logo.png");
+	background: url("/images/logo.png" );
+	background-size: 150px 140px;
 	background-repeat:no-repeat;
   background-color: #d8d8d8;
-  padding-bottom: 0;
-	/* display: flex;
-	flex-direction: column;
-	justify-items: center;
-	align-items: center; */
-	height: 450px;;
+ height: 180px;
 
 }
 .heading{
