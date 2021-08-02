@@ -17,6 +17,12 @@ text.textContent = 'The world\'s largest ebook library';
 header.appendChild(text);
 
 
+const txt1 = document.createElement('h2');
+txt1.classList.add('subheading');
+txt1.innerHTML='POPULAR  <span>BOOKS :</span>'
+header.appendChild(txt1);
+
+
 
 const img =document.createElement('img');
 img.classList.add('left');  
