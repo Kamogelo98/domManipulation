@@ -1,0 +1,160 @@
+/*selecting all elements*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Handlee', cursive;
+}
+
+body{
+    height:100vh;
+    width:100%
+}
+
+/*styling the contact box*/
+.contactBoxContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.contactBoxContainer:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("/images/logo.png") no-repeat center;
+    background-size: cover;
+    filter:blur(50px);
+    z-index: -1;
+}
+
+.formBox{
+    max-width: 830px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #d8d8d8;
+    box-shadow: 0px 0px 19px 5px red;
+}
+
+.leftSide {
+    background: url("/images/logo.png") no-repeat center;
+    background-size:contain;
+    height: 100%;
+}
+
+.actualForm{
+    padding: 25px 40px;
+}
+
+
+/*styling input boxes*/
+h1{
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+}
+
+h1:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: red;
+}
+
+.field{
+    width: 100%;
+    border: 2px double red;
+    outline: none;
+    background-color:#F0F0F0;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    transition: .3s;
+}
+
+.field:hover{
+    background-color: black;
+}
+
+textarea{
+    min-height: 90px;
+}
+
+/*styling the button*/
+.btn{
+    width: 100%;
+    padding: 5px 15px;
+    background-color: #F0F0F0;
+    color: red;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color:gray;
+}
+
+.field:focus{
+    border: 2px double red;
+    background-color: #d8d8d8;
+}
+
+/*media query*/
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+
+/*footer*/
+.footer1{
+    margin-top: 100px;
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px; 
+}
+
+
+section {
+    background-color:#A8A8A8;
+    margin-top: 140px;
+    padding:0.5rem 1rem;
+    border-radius:50px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+section:hover , section:focus{
+    background-color: rgb(167, 110, 110);
+}
+
+.prev {
+    font-size: medium;
+    transition:uppercase;
+    color: red;
+}
