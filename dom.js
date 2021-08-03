@@ -45,13 +45,15 @@ cell5.innerHTML = '<a href="https://za1lib.org/book/877382/665868"><img src="ima
 cell6.innerHTML = '<a href="https://za1lib.org/book/2950787/46c317"><img src="images/book4.png" ></a>'
 
 
-
+let  button = document.createElement('button');
+button.classList.add('button');
+main.appendChild(button);
 
 let  link1 =document.createElement('a');
 link1.textContent= '<<<<< PREVIOUS PAGE';
 link1.setAttribute("class",'link');  
 link1.href = 'index.html' 
-main.appendChild(link1);
+button.appendChild(link1);
 
 
 

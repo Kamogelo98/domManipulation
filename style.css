@@ -76,7 +76,7 @@ body{
 
 .link {
   
-  padding: 100px;
+
   font-size: medium;
   transition:uppercase;
   color: red;
@@ -104,4 +104,20 @@ body{
 
 span{
 	color:red;
+}
+
+
+.button {
+background-color:gray;
+margin-top: 140px;
+padding:0.5rem 1rem;
+border-radius:50px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+
+}
+.button:hover , .button:focus{
+ background-color: rgb(167, 110, 110);
 }
