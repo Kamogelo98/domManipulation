@@ -17,12 +17,12 @@ nav.appendChild(unOrderedList);
 
   const lin1 = document.createElement('a');
   lin1.textContent='Home'
-  lin1.href = "index.html"
+  lin1.href = "home.html"
   home.appendChild(lin1);
 
   const lin2 = document.createElement('a');
   lin2.textContent='Books'
-  lin2.href = "indexOne.html"
+  lin2.href = "books.html"
   books.appendChild(lin2);
 
 
