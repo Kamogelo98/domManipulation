@@ -1,7 +1,11 @@
 body{
 	background: #F0F0F0;
 }
+header{
 
+	background-color: #d8d8d8;
+
+}
 
 .headerDiv {
 	background: url("/images/logo.png" );
@@ -12,6 +16,7 @@ body{
 
 }
 .heading{
+	padding-top: 50px ;
 	font-family:'Handlee', cursive;
   font-weight: bold;
 	text-align: center;
@@ -121,7 +126,7 @@ nav{
 
   text-decoration: none;
   transition: 0.3s;
-  color: white;
+  color:white;
 
 }
 

@@ -1,6 +1,6 @@
 import { Navbar } from "./navbar.js";
 
-
+//
 const header = document.getElementById('head');
 const headerDiv = document.createElement('div');
 headerDiv.classList.add('headerDiv');
@@ -11,26 +11,26 @@ header.appendChild(headerDiv);
 header.appendChild(Navbar.nav);
 
 
-
+const main = document.getElementById('main');
 const welcome = document.createElement('h1');
 welcome.classList.add('heading');
 welcome.textContent = 'Welcome To Readers Paradise !';
-header.appendChild(welcome);
+main.appendChild(welcome);
 
 
 const text = document.createElement('h3');
 text.classList.add('subheading');
 text.textContent = 'The world\'s largest ebook library';
-header.appendChild(text);
+main.appendChild(text);
 
 
 const txt1 = document.createElement('h2');
 txt1.classList.add('subheading');
 txt1.innerHTML='POPULAR  <span>BOOKS :</span>'
-header.appendChild(txt1);
+main.appendChild(txt1);
 
 
-
+//
 const img =document.createElement('img');
 img.classList.add('left');  
 img.src = 'images/main (1).jpg' 
