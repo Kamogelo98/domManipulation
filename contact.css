@@ -1,16 +1,27 @@
-/*selecting all elements*/
+/*selecting all elements and clearing default*/
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-    font-family: 'Handlee', cursive;
+    
 }
-
+/* Body */
 body{
     height:100vh;
     width:100%
 }
 
+/*Header NavBar Contact & About*/
+.headerDiv {
+    background: url("/images/logo.png" );
+    background-size: 150px 140px;
+    background-repeat:no-repeat;
+    background-color: #d8d8d8;
+    height: 180px;
+}
+
+
+/*CONTACT PAGE*/
 /*styling the contact box*/
 .contactBoxContainer{
     position: relative;
@@ -62,6 +73,8 @@ h1{
     position: relative;
     padding: 0 0 10px;
     margin-bottom: 10px;
+    font-family: 'Handlee', cursive;
+    text-align: center;
 }
 
 h1:after{
@@ -119,7 +132,7 @@ textarea{
 
 /*media query*/
 @media screen and (max-width: 880px){
-	.contact-box{
+	.formBox{
 		grid-template-columns: 1fr;
 	}
 	.left{
@@ -127,18 +140,8 @@ textarea{
 	}
 }
 
-/*footer*/
-.footer1{
-    margin-top: 100px;
-    font-family: 'Gowun Dodum', sans-serif;
-    text-align: center;
-    color: white;
-    background-color: rgba(0,0,0,0.4);
-    padding: 20px; 
-}
-
-
-section {
+/*link button*/
+.main1{
     background-color:#A8A8A8;
     margin-top: 140px;
     padding:0.5rem 1rem;
@@ -149,12 +152,61 @@ section {
     cursor: pointer;
     
 }
-section:hover , section:focus{
+
+.main1:hover , .main1:focus{
     background-color: rgb(167, 110, 110);
 }
 
-.prev {
+.prev{
     font-size: medium;
     transition:uppercase;
     color: red;
+}
+
+
+/*footer*/
+.footer1{
+    margin-top: 50px;
+    font-family: 'Gowun Dodum', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px; 
+}
+
+
+/*ABOUT PAGE*/
+
+
+.content{
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+.content:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    left: 0;
+    top: 0;
+    background-color:#d8d8d8;
+    background-size: cover;
+    filter:blur(50px);
+    z-index: -1;
+} 
+
+.paragraph1 {
+    color:black;
+    font-size: 20px;
+    font-family: 'merienda';
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin:40px;
 }
