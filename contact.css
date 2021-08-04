@@ -10,8 +10,7 @@ body{
     height:100vh;
     width:100%
 }
-
-/*Header NavBar Contact & About*/
+/*Header NavBar Contact */
 .headerDiv {
     background: url("/images/logo.png" );
     background-size: 150px 140px;
@@ -176,7 +175,7 @@ textarea{
 
 
 /*ABOUT PAGE*/
-
+/* 
 
 .content{
     position: relative;
@@ -209,4 +208,4 @@ textarea{
     padding-top: 30px;
     padding-left: 30px;
     margin:40px;
-}
+} */

@@ -1,5 +1,13 @@
+import { Navbar } from "./navbar.js";
+
+const header = document.getElementById('header1');
+const headerDiv = document.createElement('div');
+headerDiv.classList.add('headerDiv');
+header.appendChild(headerDiv);
 
 
+
+header.appendChild(Navbar.nav);
 /*ABOUT PAGE*/
 const mainDiv = document.querySelector('.content');
 const contentsBox = document.createElement('article');

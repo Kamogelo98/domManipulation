@@ -1,5 +1,4 @@
 
-
 /*CONTACT PAGE*/
 /*Submit Button Function*/
 function submission() {
