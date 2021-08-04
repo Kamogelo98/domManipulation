@@ -34,7 +34,7 @@ nav.appendChild(unOrderedList);
 
   const lin4 = document.createElement('a');
   lin4.textContent='Contact Us'
-  lin4.href = "contactUs.html"
+  lin4.href = "contact.html"
   contactUs.appendChild(lin4);
   
   
