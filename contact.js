@@ -1,3 +1,4 @@
+
 /*Submit Button Function*/
 function submission() {
     alert("THANK YOU FOR YOUR SUBMISSION TO READERS PARADISE!");
