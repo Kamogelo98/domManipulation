@@ -1,7 +1,16 @@
+import { Navbar } from "./navbar.js";
+
+
 const header = document.getElementById('head1');
 const headerDiv = document.createElement('div');
 headerDiv.classList.add('headerDiv');
 header.appendChild(headerDiv);
+
+
+
+header.appendChild(Navbar.nav);
+
+
 
 
 const main = document.getElementById('main1');
@@ -27,14 +36,6 @@ cell5.classList.add('pics');
 cell6.classList.add('pics');
 
 
-// let link = document.createElement('a');
-// link.href = "https://spacenews.com/station-loses-attitude-control-after-nauka-docking-starliner-launch-delayed/"
-// link.alt = "Starliner Launch Delayed";
-// const img1 =document.createElement('img');
-// img1.src = 'images/main (2).jpg' 
-// link.appendChild(img1);
-// cell1.appendChild(link);
-
 cell1.innerHTML = '<a href="https://za1lib.org/book/1244296/2c5409"><img src="images/fivei (3).jpg" ></a>'
 cell2.innerHTML = '<a href="https://za1lib.org/book/4717785/cf49d6"><img src="images/fivei (4).jpg" ></a>'
 cell3.innerHTML = '<a href="https://za1lib.org/book/3623893/f2b38d"><img src="images/fivei (5).jpg" ></a>'
@@ -43,17 +44,6 @@ cell4.innerHTML = '<a href="https://za1lib.org/book/440804/58b367"><img src="ima
 
 cell5.innerHTML = '<a href="https://za1lib.org/book/877382/665868"><img src="images/book2.jpg" ></a>'
 cell6.innerHTML = '<a href="https://za1lib.org/book/2950787/46c317"><img src="images/book4.png" ></a>'
-
-
-let  button = document.createElement('button');
-button.classList.add('button');
-main.appendChild(button);
-
-let  link1 =document.createElement('a');
-link1.textContent= '<<<<< PREVIOUS PAGE';
-link1.setAttribute("class",'link');  
-link1.href = 'index.html' 
-button.appendChild(link1);
 
 
 

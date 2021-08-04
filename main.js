@@ -1,7 +1,14 @@
+import { Navbar } from "./navbar.js";
+
+
 const header = document.getElementById('head');
 const headerDiv = document.createElement('div');
 headerDiv.classList.add('headerDiv');
 header.appendChild(headerDiv);
+
+
+
+header.appendChild(Navbar.nav);
 
 
 
@@ -39,20 +46,6 @@ const img2 =document.createElement('img');
 img2.classList.add('right');  
 img2.src = 'images/main (3).jpg' 
 main.appendChild(img2);
-
-
-let  button1 = document.createElement('button');
-button1.classList.add('button');
-main.appendChild(button1);
-
-
-const link =document.createElement('a');
-link.textContent= 'NEXT PAGE >>>>>';
-link.classList.add('link');  
-link.href = 'indexOne.html' 
-button1.appendChild(link);
-
-
 
  
 const footer = document.getElementById('foot');
