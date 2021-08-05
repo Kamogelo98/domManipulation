@@ -1,7 +1,8 @@
 
 /*CONTACT PAGE*/
 /*Submit Button Function*/
-function submission() {
+// Arrow fuction
+let submission = () =>{
     alert("THANK YOU FOR YOUR SUBMISSION TO READERS PARADISE!");
     location.href='home.html';
     return true;
