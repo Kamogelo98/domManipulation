@@ -1,6 +1,6 @@
 import { Navbar } from "./navbar.js";
 
-//
+
 const header = document.getElementById('head');
 const headerDiv = document.createElement('div');
 headerDiv.classList.add('headerDiv');
@@ -30,7 +30,7 @@ txt1.innerHTML='POPULAR  <span>BOOKS :</span>'
 main.appendChild(txt1);
 
 
-//
+
 const img =document.createElement('img');
 img.classList.add('left');  
 img.src = 'images/main (1).jpg' 
