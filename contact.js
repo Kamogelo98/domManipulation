@@ -3,7 +3,9 @@
 /*Submit Button Function*/
 function submission() {
     alert("THANK YOU FOR YOUR SUBMISSION TO READERS PARADISE!");
+    location.href='home.html';
     return true;
+    
  }
 
 /*HeaderDiv*/
